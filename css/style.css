@@ -1,4 +1,136 @@
-. {
+@font-face {
+    font-family: 'GothamMedium_1';
+    src: url('../fonts/GothamMedium_1.eot');
+    src: url('../fonts/GothamMedium_1.eot') format('embedded-opentype'),
+    url('../fonts/GothamMedium_1.woff2') format('woff2'),
+    url('../fonts/GothamMedium_1.woff') format('woff'),
+    url('../fonts/GothamMedium_1.ttf') format('truetype'),
+    url('../fonts/GothamMedium_1.svg#GothamMedium_1') format('svg');
+}
+
+* {
     margin: 0;
     padding: 0;
+    font-family: 'GothamMedium_1', sans-serif ;
+}
+body {
+    background: url("../images/background.jpg") no-repeat #010101;
+    height: 2000px;
+}
+.container {
+    position: relative;
+    max-width: 960px;
+    margin: auto;
+}
+
+.sales_assistance {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size:  10px;
+    line-height: 24px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    background-color: #303030;
+}
+
+.sales_assistance span {
+    color: #ababab;
+    text-transform: uppercase;
+}
+.logo {
+    float: left;
+    width: 100%;
+    max-width: 130px;
+    display: inline-block;
+}
+.logo img {
+    border-top: solid 4px #05abda;
+    padding-top: 32px;
+    padding-bottom: 34px;
+}
+.buy {
+    float: right;
+    font-size: 19px;
+    color: #05abda;
+    margin-left: 14px;
+    margin-top: 36px;
+}
+.chat {
+    float: right;
+    font-size: 19px;
+    color: #05abda;
+    margin-left: 20px;
+    margin-top: 36px;
+}
+header form {
+    float: right;
+}
+
+header form input {
+    float: left;
+    line-height: 28px;
+    font-size: 11px;
+    margin-top: 31px;
+    padding-left: 11px;
+    background-color: #000;
+    border: solid 1px #494949;
+    border-right: 0;
+}
+header form button {
+    float: left;
+    line-height: 28px;
+    font-size: 11px;
+    margin-top: 31px;
+    padding-right: 7px;
+    padding-left: 7px;
+    background-color: #000;
+    border: solid 1px #494949;
+    color: white;
+    border-left: 0;
+}
+.support {
+    float: right;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 36px;
+    margin-right: 35px;
+}
+.products {
+    float: right;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 36px;
+    margin-right: 33px;
+}
+section {
+    clear: both;
+
+}
+.top {
+    position: relative;
+}
+.bg {
+    z-index: 1;
+    width: 100%;
+    margin: auto;
+}
+.connecting {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 58px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /*background-color: rgba(34,141,191,0.7);*/
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-image: url("../images/connecting.jpg");
 }
