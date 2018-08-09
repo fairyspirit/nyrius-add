@@ -14,11 +14,10 @@
     font-family: 'GothamMedium_1', sans-serif ;
 }
 body {
-    background: url("../images/background.jpg") no-repeat #010101;
-    height: 2000px;
+    background: url("../images/background.jpg") no-repeat #010101 top center;
+    background-size: cover;
 }
 .container {
-    position: relative;
     max-width: 960px;
     margin: auto;
 }
@@ -39,98 +38,100 @@ body {
     color: #ababab;
     text-transform: uppercase;
 }
-.logo {
+header .logo {
     float: left;
+    padding-top: 35px;
+    border-top: solid 4px #05abda;
     width: 100%;
     max-width: 130px;
+}
+header .logo img {
+    width: 100%;
+}
+.right-header-block {
+    float: right;
+}
+.sales {
     display: inline-block;
-}
-.logo img {
-    border-top: solid 4px #05abda;
-    padding-top: 32px;
-    padding-bottom: 34px;
-}
-.buy {
     float: right;
-    font-size: 19px;
-    color: #05abda;
+    font-size:  10px;
+    line-height: 24px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    background-color: #303030;
+}
+.sales span {
+    color: #ababab;
+    text-transform: uppercase;
+}
+.clearfix {
+    clear: both;
+}
+.shopping-card {
+    float: right;
     margin-left: 14px;
-    margin-top: 36px;
+    margin-top: 12px;
 }
-.chat {
-    float: right;
-    font-size: 19px;
+.shopping-card a {
     color: #05abda;
-    margin-left: 20px;
-    margin-top: 36px;
+    font-size: 19px;
 }
-header form {
+form {
     float: right;
+    margin-top: 7px;
+    margin-bottom: 30px;
+    color: white;
 }
-
-header form input {
-    float: left;
+form input {
     line-height: 28px;
     font-size: 11px;
-    margin-top: 31px;
-    padding-left: 11px;
-    background-color: #000;
-    border: solid 1px #494949;
-    border-right: 0;
-}
-header form button {
-    float: left;
-    line-height: 28px;
-    font-size: 11px;
-    margin-top: 31px;
     padding-right: 7px;
     padding-left: 7px;
     background-color: #000;
     border: solid 1px #494949;
-    color: white;
-    border-left: 0;
+    border-right: 0;
 }
-.support {
+/*form :after {*/
+    /*content: "f00c";*/
+    /*color: white;*/
+    /*position: absolute;*/
+    /*font-size: 20px;*/
+    /*right: 5;*/
+    /*top: 0;*/
+    /*font-family: ;*/
+/*}*/
+nav {
     float: right;
-    text-decoration: none;
-    color: white;
-    text-transform: uppercase;
-    font-size: 15px;
-    margin-top: 36px;
-    margin-right: 35px;
+    margin-top: 12px;
 }
-.products {
-    float: right;
-    text-decoration: none;
-    color: white;
-    text-transform: uppercase;
-    font-size: 15px;
-    margin-top: 36px;
+header ul li {
+    list-style: none;
+    float: left;
     margin-right: 33px;
 }
-section {
-    clear: both;
-
-}
-.top {
-    position: relative;
-}
-.bg {
-    z-index: 1;
-    width: 100%;
-    margin: auto;
-}
-.connecting {
+header ul li a {
     text-decoration: none;
     color: white;
     text-transform: uppercase;
-    font-size: 25px;
-    line-height: 58px;
-    padding-left: 20px;
-    padding-right: 20px;
-    /*background-color: rgba(34,141,191,0.7);*/
+    font-size: 15px;
+}
+
+.banner img {
+    width: 100%;
+}
+.banner {
+    position: relative;
+}
+.banner a {
     position: absolute;
-    bottom: 20px;
-    left: 20px;
     background-image: url("../images/connecting.jpg");
+    color:#FFF;
+    text-decoration: none;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 0 22px;
+    line-height: 58px;
+    bottom: 22px;
+    left: 20px;
 }
