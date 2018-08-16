@@ -143,14 +143,11 @@ section {
 
 /*}*/
 
-/*.owl-prev, .owl-next {*/
-    /*position: absolute;*/
-    /*top: 50px;*/
-/*}*/
 .owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next{
     position: absolute;
     top: 50%;
-    color: red;
+    margin-top: -50px;
+    color: #9e9e9e;
     font-size: 100px;
 }
 .owl-prev {
@@ -159,16 +156,15 @@ section {
 .owl-next {
     right: 5px;
 }
-
 .owl-dots {
     position: absolute;
-    top: 10px;
+    top: 20px;
     right: 10px;
+    margin-right: 10px;
 }
-
 .owl-carousel button.owl-dot {
-    background-color: red;
-    width: 10px;
-    height: 10px;
+    background-color: #cdcdcd;
+    width: 8px;
+    height: 8px;
     margin: 0 10px;
 }
