@@ -117,7 +117,9 @@ header ul li a {
     text-transform: uppercase;
     font-size: 15px;
 }
-
+section {
+    clear: both;
+}
 .banner img {
     width: 100%;
 }
@@ -135,4 +137,38 @@ header ul li a {
     line-height: 58px;
     bottom: 22px;
     left: 20px;
+}
+/*.owl-nav {*/
+    /*display: none;!important;*/
+
+/*}*/
+
+/*.owl-prev, .owl-next {*/
+    /*position: absolute;*/
+    /*top: 50px;*/
+/*}*/
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next{
+    position: absolute;
+    top: 50%;
+    color: red;
+    font-size: 100px;
+}
+.owl-prev {
+    left: 5px;
+}
+.owl-next {
+    right: 5px;
+}
+
+.owl-dots {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.owl-carousel button.owl-dot {
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    margin: 0 10px;
 }
