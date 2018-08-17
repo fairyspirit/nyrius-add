@@ -168,3 +168,39 @@ section {
     height: 8px;
     margin: 0 10px;
 }
+.navigation {
+    background-color: black;
+    padding: 20px 19px 17px 19px;
+}
+.navigation ul li{
+    display: inline-block;
+}
+.navigation ul li a {
+    text-decoration: none;
+    color: white;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.navigation ul li:after {
+    content: "\003e";
+    color: white;
+}
+.navigation ul li:last-child:after {
+    display: none;
+}
+.caption {
+    background-image: url("../images/nyrius-faq-askquestion-rollover.jpg");
+    height: 189px;
+    position: relative;
+}
+.caption div {
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    left: 19px;
+    bottom: 19px;
+}
+.accordion {
+    background-color: white;
+}
+
